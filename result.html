@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <script type="text/javascript" src="jquery/jquery-3.6.0.js"></script>
+        <link rel="stylesheet" href="base.css" type="text/css">
+        <link rel="stylesheet" href="result.css" type="text/css">
+        <script type="text/javascript" src="result.js"></script>
+        <title>result.html</title>
+    </head>
+
+    <body>
+        <div id="infoSpaceParent">
+            <div id = "informationSpace">
+                <div id="imageSpace">
+                    <img alt="tv Show Poster" id="poster">
+                </div>
+                <div id="textSpace">
+                    <p id="showTitle" class="text sizeB">Title</p>
+                    <p id="episodeTitle" class="text sizeA">Epsiode</p>
+                    <p id="season-episode" class="text sizeA">S1E1</p>
+                    <p id="plot" class="text sizeC">Text.</p>
+                </div>
+            </div>
+        </div>
+        <div id="optionSpace">
+            <button class="option move" id="back" onclick="location.href = 'search.html'">Different show </button>
+            <button class="option move" id="refresh" onclick="location.reload()">Different episode</button>
+        </div>
+    </body>
+</html>

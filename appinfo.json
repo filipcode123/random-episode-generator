@@ -1,0 +1,12 @@
+{
+  "id": "com.example.myapp",
+  "version": "0.0.1",
+  "vendor": "NA",
+  "type": "web",
+  "main": "search.html",
+  "title": "REG",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "bgColor": "yellow",
+  "splashBackground": "splashBackground.png"
+}

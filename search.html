@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <script type="text/javascript" src="jquery/jquery-3.6.0.js"></script>
+        <link rel="stylesheet" href="base.css" type="text/css">
+        <link rel="stylesheet" href="search.css" type="text/css">
+        <script type="text/javascript" src="search.js"></script>
+        <title>search.html</title>
+    </head>
+
+    <body>
+        <div id="searchSpace">
+            <input class="move" id = "searchInput" oninput = "getResults()" autocomplete="off" placeholder="Choose a show...">    
+        </div>
+        
+        <form action = "result.html" id="form">
+            <input type="hidden" name="show">
+            <input type="hidden" name="totalSeasons">
+        </form>
+
+        <div id="resultSpace">
+        </div>
+        
+        <div id = "messageSpace">
+            <p id="messageParagraph"></p>
+        </div>
+    </body>
+</html>

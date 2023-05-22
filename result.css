@@ -1,0 +1,77 @@
+@import url("base.css");
+
+
+
+#informationSpace{
+    background-color: var(--background-C);
+    /*
+    border:2px solid red;
+    */
+    
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    display: flex;
+
+    padding: 0.8rem;
+    border-radius: 1rem;
+
+    height:70%;
+    width:80%;
+}
+
+#textSpace{
+    padding-left: 2.5rem;
+}
+
+#imageSpace img{
+    border-radius: 0.5rem;
+}
+
+.option{
+    font-size:2.5rem;
+    margin-right: 1rem;
+    border:0;
+    background: var(--background-B);
+    padding:0.2em 0.3em 0.2em 0.3em;
+    
+    border-radius: 0.3rem;
+    
+}
+
+.option:focus{
+    border: 0.2rem solid white;
+}
+
+#optionSpace{
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.text{
+    margin: 0;
+}
+
+.sizeB{
+    font-size: 3.5rem;
+    color: var(--text-B);
+}
+
+.sizeA{
+    font-size:4rem;
+    color: var(--text-A);
+    font-weight: bold;
+}
+
+.sizeC{
+    font-size:2.5rem;
+    color:var(--text-D);
+}
+
+#plot{
+    margin-top: 2rem;
+}
